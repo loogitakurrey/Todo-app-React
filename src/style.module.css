@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+    background-color:deepskyblue;
+    height: 50px;
+    font-size: 2em;
+    color: white;
+    padding: 10px;
+}
+
+.todoForm{
+    width: 100%;
+    margin: auto;
+    margin-top: 2px;
+
+}
+
+.form{
+    display: flex;
+    flex: 1;
+}
+
+.todoInput{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    font-size: 1.5em;
+    text-align: center;
+    height: 50px;
+}
+
+.todoButton{
+    width: 20%;
+    border: none;
+    height: 50px;
+    background-color: cornflowerblue;
+    font-size: 1.2em;
+    color:white;
+    margin-right: 2px;
+}
+
+.todoItems{ 
+    display: flex;
+}
+
+.item{
+    height: 100%;
+    background-color: deepskyblue;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin: 1px;
+}
+
+.deleteTodoItem{
+    width: 20%;
+    color: white;
+    background-color: red;
+    border: none;
+    padding:10px;
+    margin: 1px;
+}
